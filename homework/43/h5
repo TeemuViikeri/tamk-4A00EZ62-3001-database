@@ -1,0 +1,2 @@
+UPDATE Todo SET is_done = true WHERE name = 'Tee tietokantatehtävät';
+SELECT * FROM Todo;

@@ -1,0 +1,3 @@
+ALTER TABLE Todo
+  ADD COLUMN priority INT,
+  ADD COLUMN due_date DATE;

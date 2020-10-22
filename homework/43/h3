@@ -1,0 +1,4 @@
+INSERT INTO Todo (name, description, priority, due_date)
+VALUES  ('Tiskaa tiskit', 'Huomenna tulee porukat kylään: TISKAA TÄNÄÄN', 2, '2020-10-22'),
+        ('Tee tietokantatehtävät', 'Samin ensimmäisen viikon MySQL-tehtävät', 1, '2020-10-26'),
+        ('Osta ruokaa', 'Meksikonpataan ainekset', 5, '2020-10-21');

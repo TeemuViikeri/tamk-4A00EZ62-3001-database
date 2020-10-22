@@ -1,0 +1,1 @@
+SELECT * FROM Todo WHERE priority <= 2 AND is_done IS false;

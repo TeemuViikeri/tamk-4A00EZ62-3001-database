@@ -1,0 +1,1 @@
+DELETE FROM Todo WHERE is_done IS true;
