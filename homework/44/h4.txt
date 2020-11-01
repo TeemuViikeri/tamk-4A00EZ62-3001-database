@@ -1,0 +1,7 @@
+SELECT      p.product_name          AS 'Product name'
+            , COUNT(od.product_id)  AS 'Product count'
+FROM        products                AS p
+LEFT JOIN   order_details           AS od
+ON          p.id = od.product_id
+GROUP BY    p.product_name
+;

@@ -1,0 +1,6 @@
+DELETE FROM employees
+WHERE CONCAT_WS(' ', first_name, last_name) IN('Nancy Freehafer', 'Steven Thorpe');
+
+MySQL:n vastaus poistolauseeseen: "ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`northwind`.`orders`, CONSTRAINT `fk_orders_employees1` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))"
+
+Työntkeijöiden poistaminen ei onnistu, koska työntekijöiden id-numeroon on asetettu rajoite: foreign key orders-taulussa.
